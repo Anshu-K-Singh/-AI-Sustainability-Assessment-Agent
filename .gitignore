@@ -1,0 +1,24 @@
+# Local configuration and secrets
+.env
+
+# Python environments, caches, and test artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary files and local runtime logs
+*.log
+tmp/
+
+# Generated output: retain the two submission evidence artifacts only
+output/*
+!output/evaluation_report.json
+!output/api_raw_scenarios.json
+
+# Operating-system/editor noise
+.DS_Store
+Thumbs.db
+*.swp
