@@ -1,0 +1,14 @@
+[
+  {"product_id": "levis-501", "query": "Levi's 501 denim jeans", "brand": "Levi's", "category": "jeans", "materials": ["cotton", "denim"]},
+  {"product_id": "levis-cotton-tee", "query": "Levi's 100% cotton t-shirt", "brand": "Levi's", "category": "t-shirt", "materials": ["cotton"]},
+  {"product_id": "levis-recycled-jacket", "query": "Levi's recycled polyester jacket", "brand": "Levi's", "category": "jacket", "materials": ["recycled polyester"]},
+  {"product_id": "patagonia-organic-tee", "query": "Patagonia organic cotton t-shirt", "brand": "Patagonia", "category": "t-shirt", "materials": ["organic cotton"]},
+  {"product_id": "patagonia-puffer", "query": "Patagonia recycled polyester puffer jacket", "brand": "Patagonia", "category": "jacket", "materials": ["recycled polyester"]},
+  {"product_id": "patagonia-cotton-shirt", "query": "Patagonia cotton shirt", "brand": "Patagonia", "category": "shirt", "materials": ["cotton"]},
+  {"product_id": "hm-denim", "query": "H&M denim jeans", "brand": "H&M", "category": "jeans", "materials": ["cotton", "denim"]},
+  {"product_id": "hm-recycled-puffer", "query": "H&M recycled polyester puffer jacket", "brand": "H&M", "category": "jacket", "materials": ["recycled polyester"]},
+  {"product_id": "hm-organic-tee", "query": "H&M organic cotton certified t-shirt", "brand": "H&M", "category": "t-shirt", "materials": ["organic cotton"]},
+  {"product_id": "unknown-cotton", "query": "100% cotton t-shirt from Brand X", "brand": null, "category": "t-shirt", "materials": ["cotton"]},
+  {"product_id": "unknown-puffer", "query": "polyester puffer jacket from Brand Y", "brand": null, "category": "jacket", "materials": ["polyester"]},
+  {"product_id": "ambiguous-levis", "query": "Levi's everyday trousers", "brand": "Levi's", "category": "trousers", "materials": []}
+]

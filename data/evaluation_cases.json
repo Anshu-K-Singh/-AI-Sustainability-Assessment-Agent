@@ -1,0 +1,14 @@
+[
+  {"id": "levis_standard", "request": {"query": "Levi's denim jeans", "depth": "standard"}, "expected_brand": "Levi's", "expected_groups": ["brand", "materials", "public_signal"], "expected_material_assessable": true},
+  {"id": "patagonia_deep", "request": {"query": "Patagonia recycled polyester puffer jacket", "depth": "deep"}, "expected_brand": "Patagonia", "expected_groups": ["brand", "materials", "certifications", "public_signal"], "expected_material_assessable": true},
+  {"id": "hm_standard", "request": {"query": "H&M cotton t-shirt", "depth": "standard"}, "expected_brand": "H&M", "expected_groups": ["brand", "materials", "public_signal"], "expected_material_assessable": true},
+  {"id": "levis_quick", "request": {"query": "Levi's cotton shirt", "depth": "quick"}, "expected_brand": "Levi's", "expected_groups": ["brand", "materials"], "expected_material_assessable": true},
+  {"id": "hm_certification_claim", "request": {"query": "H&M GOTS certified organic cotton t-shirt", "depth": "deep"}, "expected_brand": "H&M", "expected_groups": ["brand", "materials", "certifications"], "expected_material_assessable": true},
+  {"id": "unknown_brand", "request": {"query": "100% cotton t-shirt from Brand X", "category": "t-shirt", "materials": ["cotton"], "depth": "standard"}, "expected_brand": null, "expected_groups": ["materials"], "expected_material_assessable": true},
+  {"id": "unknown_material", "request": {"query": "Patagonia everyday trousers", "depth": "standard"}, "expected_brand": "Patagonia", "expected_groups": ["brand", "public_signal"], "expected_material_assessable": false},
+  {"id": "virgin_polyester", "request": {"query": "H&M polyester puffer jacket", "depth": "standard"}, "expected_brand": "H&M", "expected_groups": ["brand", "materials", "public_signal"], "expected_material_assessable": true},
+  {"id": "recycled_polyester", "request": {"query": "Patagonia recycled polyester jacket", "depth": "deep"}, "expected_brand": "Patagonia", "expected_groups": ["brand", "materials", "certifications", "public_signal"], "expected_material_assessable": true},
+  {"id": "organic_cotton", "request": {"query": "Patagonia organic cotton t-shirt", "depth": "deep"}, "expected_brand": "Patagonia", "expected_groups": ["brand", "materials", "certifications"], "expected_material_assessable": true},
+  {"id": "levis_conflict", "request": {"query": "Are Levi's denim jeans sustainable or greenwashing?", "depth": "standard"}, "expected_brand": "Levi's", "expected_groups": ["brand", "materials", "public_signal"], "expected_material_assessable": true},
+  {"id": "hm_conflict", "request": {"query": "H&M recycled cotton sustainability claims and criticism", "depth": "deep"}, "expected_brand": "H&M", "expected_groups": ["brand", "materials", "public_signal"], "expected_material_assessable": true}
+]
